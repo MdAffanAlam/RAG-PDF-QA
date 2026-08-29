@@ -52,7 +52,7 @@ class PdfQA {
       chunkOverlap: this.chunkOverlap,
     });
     this.texts = await splitter.splitDocuments(this.docs);
-    // console.log(this.texts[2].pageContent);
+    // console.log(this.texts[3].pageContent);
   }
 
   async createVectorStore() {
